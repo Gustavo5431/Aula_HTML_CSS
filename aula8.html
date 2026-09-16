@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <!-- Corrigido: 'width=device-width' -->
+    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aula Pratica</title>
@@ -13,19 +13,19 @@
         <fieldset>
             <legend>Formulario da Empresa</legend>
        
-            <!-- Corrigido: IDs e Names exclusivos para cada campo -->
+            
             <label for="nome">Nome:</label><br>
             <input type="text" id="nome" name="nome" placeholder="Ex: Gustavo Cordeiro" required><br><br>
              
             <label for="endereco">Endereço:</label><br>
             <input type="text" id="endereco" name="endereco" placeholder="Ex: Rua Araça 67" required><br><br>
 
-            <!-- Dica extra: Mudado para type="tel" que é melhor para telefone -->
+            
             <label for="telefone">Telefone:</label><br>
             <input type="tel" id="telefone" name="telefone" placeholder="Ex: 19 99999-8888" required><br><br>
 
             <p>Interesse por qual departamento:</p>
-            <!-- Corrigido: Checkboxes fechadas e com o atributo 'name' preenchido -->
+           
             <input type="checkbox" id="comercial" name="departamento" value="comercial">
             <label for="comercial">Comercial</label><br>
 
@@ -41,6 +41,9 @@
             <input type="checkbox" id="ti" name="departamento" value="ti">
             <label for="ti">TI</label><br><br>
 
+            <input type="radio" id="ti" name="departamento" value="ti">
+            <label for="ti">TI</label><br><br>
+
             <label for="estado-civil">Estado Civil:</label><br>
             <select id="estado-civil" name="estadoCivil">
                 <option value="">Selecione...</option>
@@ -48,13 +51,10 @@
                 <option value="casado">Casado(a)</option>
                 <option value="divorciado">Divorciado(a)</option>
                 <option value="viuvo">Viúvo(a)</option>
+
+            
             </select>
 
-        <!-- Corrigido: Faltava fechar essas duas tags no final -->
-        </fieldset>
-    </form>
-</body>
-</html>
-
+  
 
            
