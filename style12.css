@@ -1,11 +1,11 @@
 body{
-    background-color: violet;
+    background-color: goldenrod;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 #site-header{
-    background-color: blueviolet;
+    background-color: skyblue;
     padding: 0%;
     display: flex
-
+    
 }
