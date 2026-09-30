@@ -1,0 +1,11 @@
+body{
+    background-color: violet;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#site-header{
+    background-color: blueviolet;
+    padding: 0%;
+    display: flex
+
+}
